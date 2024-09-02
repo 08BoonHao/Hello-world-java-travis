@@ -28,7 +28,7 @@ jobs:
       after_failure:
         - echo "Tests failed. Check the test results for details."
       after_success:
-        - echo "Tests passed successfully."
+        - echo "Tests passed successfully"
     
     - stage: Deployement
       script:
